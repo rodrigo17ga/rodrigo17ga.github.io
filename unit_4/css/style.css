@@ -1,0 +1,49 @@
+}
+CSS Reset
+*, *:before, *:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     
+        -webkit-box-sizing: border-box;     box-sizing: border-box; }
+
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Nobile);
+
+body	{text-align: left; background-color: black;
+	    position: absolute;	
+    	left: 100px;
+    	right:100px;
+    	top: 150px;}
+        {background-image: 
+            background-position: center}
+
+h1,h2   {font-family: 'Rock Salt', cursive;}
+
+h1     {font-family: 'Rock Salt'; cursive;
+        font-weight: bold; color: #008000; 
+        text-align: center; font-size: 75px; line-height: 1.5em; 
+        }
+
+h2	{font-weight: bold;	color: #e50000; font-size: 12px; line-height:2em }
+
+p {
+    font-family: Nobile, sans-serif;
+    font-size: 15px;
+    line-height: 1.25em;
+    margin: 0em;
+}
+
+
+body {color: #006622;}
+ div{
+    .album {
+width: 33.333%;
+float: left;
+}>
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
+    column-span: 20px 10;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
